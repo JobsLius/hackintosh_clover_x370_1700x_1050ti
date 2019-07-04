@@ -1,0 +1,46 @@
+
+Clover EFI installer log - Tue Jul  2 23:16:22 CST 2019
+Installer version: v2.4k r4972 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk2         119.8 GB   disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *240.1 GB   disk1
+   1:           Windows Recovery                         523.2 MB   disk1s1
+   2:                        EFI NO NAME                 104.9 MB   disk1s2
+   3:         Microsoft Reserved                         16.8 MB    disk1s3
+   4:       Microsoft Basic Data                         239.4 GB   disk1s4
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +119.8 GB   disk2
+                                 Physical Store disk0s2
+   1:                APFS Volume mac                     51.2 GB    disk2s1
+   2:                APFS Volume Preboot                 22.0 MB    disk2s2
+   3:                APFS Volume Recovery                519.0 MB   disk2s3
+   4:                APFS Volume VM                      1.1 GB     disk2s4
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *31.9 GB    disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS Install macOS High S... 31.5 GB    disk3s2
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Install macOS High Sierra/EFIROOTDIR/EFI folder to /Volumes/Install macOS High Sierra/EFI-Backups/r4972/2019-07-02-23h16/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS High Sierra
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS High Sierra
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
